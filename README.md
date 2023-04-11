@@ -1,4 +1,4 @@
-# drug_shortages
+# Drug Shortages Generator (US)
 Quick way to generate a list of all drugs that are experiencing (or have experienced) shortages in the US
 Generated from available data on the [FDA Access Data website](https://www.accessdata.fda.gov/scripts/drugshortages/default.cfm)
 by Matthew Mohr
