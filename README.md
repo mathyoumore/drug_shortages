@@ -4,7 +4,7 @@ Generated from available data on the [FDA Access Data website](https://www.acces
 by Matthew Mohr
 
 ## How to use 
-Clone repo (or just copy the file) and run the "drug_shortage_generayor.py" script. Once successful, it will create a folder called "Shortages" and put a date-prefixed output .csv file of its findings. This is different from the "Download Current Drug Shortages" link on the Access Data website because this will create a row for every NDC it finds and provide the FDA and HIPAA versions of those NDCs. **Requires Python 3 or higher as well as Pandas 1.5 or greater.**
+Clone repo (or just copy the file) and run the "drug_shortage_generayor.py" script. Once successful, it will create a folder called "Shortages" and put a date-prefixed output .csv file of its findings. This is different from the "Download Current Drug Shortages" link on the Access Data website because this will create a row for every NDC it finds and provide the FDA and HIPAA versions of those NDCs. **Requires Python 3 or higher as well as Pandas 1.5 or higher.**
 
 If, for whatever reason, the FDA removes the "Download Current Drug Shortages" link, a data miner script is also available at "drugshortagespider.py." This script requires Selenium, Firefox, and the relevant drivers as well as BeautifulSoup. This script should only be used if the "Download Current Drug Shortages" button is removed from the Access Data website. If the link still exists, just moved, let me know. 
 
